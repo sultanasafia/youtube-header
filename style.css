@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: cursive;
+}
+
+.hashtag-header{
+padding: 2rem;
+background-color: #2d2df0;
+color: white;
+background-image: url(./background-imgback.png);
+background-position: 100%;
+background-repeat: no-repeat;
+}
+h1{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.hashtag-header span{
+    font-size: 2rem;
+}
+.hashtag-header img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: 5px solid white;
+   
+    
+}
+img{
+    margin-left: -1rem;
+}
+.image-container{
+    display: inline-flex;
+    /* justify-content: flex-end; */
+    /* flex-direction: row-reverse; */
+    vertical-align: middle;
+    margin-left: 32px;
+}
